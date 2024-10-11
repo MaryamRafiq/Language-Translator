@@ -95,7 +95,7 @@ nav {
   outline: none;
   font-size: 18px;
   background: rgb(22, 19, 19);
-  padding-left: 5px;
+   padding-left: 5px; 
 
 }
 
@@ -107,7 +107,7 @@ nav {
 }
 .text-input textarea::-webkit-scrollbar-track,
 .controls .row select::-webkit-scrollbar-track{
-  background: white;
+  background: rgb(216, 78, 78);
 }
 .text-input textarea::-webkit-scrollbar-thumb{
   background: #ddd;
@@ -116,7 +116,7 @@ nav {
 .controls .row select::-webkit-scrollbar-thumb{
   background: #999;
   border-radius: 8px;
-  border-right: 2px solid #ffffff;
+  border-right: 2px solid #111010;
 }
 .controls .exchange{
   color: #adadad;
@@ -140,7 +140,7 @@ nav {
   background: rgb(216, 78, 78);
 }
 
-@media (max-width: 660px){
+@media (max-width: 500px){
   .container {
     width: 100%; 
     padding: 20px; 
@@ -148,17 +148,19 @@ nav {
   }
 
   .controls .row .icons {
-    width: 100%; 
+    
     justify-content: center; 
     margin-bottom: 5px; 
-    
+    flex-wrap: wrap; 
   }
-  .controls .row .icons i {
-    width: 20px; 
-   margin: 0 5px; 
-    color: #adadad; 
 
+  .controls .row .icons i {
+   padding: 5px 0;
+    margin: 0 5px; 
+    color: #adadad; 
+   
   }
+
   .controls .exchange {
     font-size: 24px; 
     margin: 5px 0; 
@@ -166,25 +168,29 @@ nav {
     align-self: center; 
   }
 
-  .wrapper .text-input{
-    flex-direction: column;
+  .wrapper .text-input {
+    flex-direction: column; 
   }
-  .text-input .to-text{
-    border-left: 0px;
-    border-top: 1px solid #ccc;
+
+  .text-input .to-text {
+    border-left: 0; 
+    border-top: 1px solid #ccc; 
   }
-  .text-input textarea{
-    height: 200px;
+
+  .text-input textarea {
+    height: 200px; 
   }
-  
-  .container button{
-    padding: 13px;
+
+  .container button {
+    padding: 13px; 
     font-size: 16px;
   }
-  .controls .row select{
-    font-size: 16px;
+
+  .controls .row select {
+    font-size: 16px; 
   }
-  .controls .exchange{
-    font-size: 14px;
+
+  .controls .exchange {
+    font-size: 20px; 
   }
 }
