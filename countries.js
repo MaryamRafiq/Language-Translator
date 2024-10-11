@@ -59,7 +59,7 @@ const countries = {
     "nl-NL": "Dutch",
     "no-NO": "Norwegian",
     "ny-MW": "Nyanja",
-    "ur-PK": "Pakistani",
+    "ur-PK": "Urdu",
     "pau-PW": "Palauan",
     "pa-IN": "Panjabi",
     "ps-PK": "Pashto",
